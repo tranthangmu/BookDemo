@@ -1,0 +1,5 @@
+com/example/demo/DemoApplication.class
+com/example/demo/service/BookServiceImpl.class
+com/example/demo/service/BookService.class
+com/example/demo/rest/BookRestController.class
+com/example/demo/dto/BookDto.class
