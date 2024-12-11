@@ -34,11 +34,11 @@ public class BookServiceImpl implements BookService{
     }
 
     private BookDto convertToDto(Book book) {
-        BookDto dto = new BookDto();
+        BookDto bookDto = new BookDto();
         dto.setId(book.getId());
         dto.setTitle(book.getTitle());
         dto.setAuthor(book.getAuthor());
-        return dto;
+        return bookDto;
     }
 
     private Book convertToEntity(BookDto dto) {
