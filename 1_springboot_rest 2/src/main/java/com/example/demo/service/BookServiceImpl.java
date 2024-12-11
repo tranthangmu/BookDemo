@@ -43,9 +43,9 @@ public class BookServiceImpl implements BookService{
 
     private Book convertToEntity(BookDto dto) {
         Book book = new Book();
-        book.setId(dto.getId());
-        book.setTitle(dto.getTitle());
-        book.setAuthor(dto.getAuthor());
+        book.setId(bookDto.getId());
+        book.setTitle(bookDto.getTitle());
+        book.setAuthor(bookDto.getAuthor());
         return book;
     }
 
