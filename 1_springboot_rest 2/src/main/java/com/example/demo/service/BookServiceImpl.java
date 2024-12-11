@@ -35,9 +35,9 @@ public class BookServiceImpl implements BookService{
 
     private BookDto convertToDto(Book book) {
         BookDto bookDto = new BookDto();
-        dto.setId(book.getId());
-        dto.setTitle(book.getTitle());
-        dto.setAuthor(book.getAuthor());
+        bookDto.setId(book.getId());
+        bookDto.setTitle(book.getTitle());
+        bookDto.setAuthor(book.getAuthor());
         return bookDto;
     }
 
