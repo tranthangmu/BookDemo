@@ -63,8 +63,8 @@ public class BookServiceImpl implements BookService{
 
         Book book = convertToEntity(bookDto);
         book.setId(id);
-        book.setTitle(bookDto.getTitle());
-        book.setAuthor(bookDto.getAuthor());
+        book.setTitle(book.getTitle());
+        book.setAuthor(book.getAuthor());
 
         Book updatedBook = bookRepository.save(book);
 
